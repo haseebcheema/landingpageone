@@ -130,3 +130,17 @@ html, body{
     background-position: center;
     
 }
+
+/* media queires to make responsve page */
+
+@media(max-width: 500px){
+    #main{
+        flex-direction: column;
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+}
